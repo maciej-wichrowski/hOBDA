@@ -1,0 +1,34 @@
+Name:                VisualizeRequisitions
+Version:             1.0
+License:             AllRightsReserved
+Author:              Pier Janssen, Maciej Wichrowski
+Maintainer:          pier.janssen@ifsworld.com, maciej.wichrowski@ifsworld.com
+Category:            AI
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+
+Executable VisualizeRequisitions
+    Main-is:
+        Main.hs
+  
+    ghc-options: -O2 -threaded
+    
+    Build-depends:
+        base == 4.*,
+        regex-compat >= 0.95.1,
+        gloss >= 1.2,
+        MonadRandom >= 0.1.8,
+        HsCharts == 1.0
+
+    hs-source-dirs:
+        .,
+        ./..,
+        ./../..,
+        ./../../..
+        
+    Other-Modules:
+        MachineLearning.Helpers
+        MachineLearning.Requisitions.Requisitions
+        MachineLearning.Maths.Matrix
+        MachineLearning.Maths.Statistics

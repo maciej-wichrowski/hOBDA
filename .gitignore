@@ -1,0 +1,24 @@
+# Windows system files
+######################
+[Dd]esktop.ini
+[Tt]humbs.db
+
+# OSX system files
+##################
+*.DS_Store
+._*
+
+# Java compiled files
+#####################
+bin
+
+# Haskell compiled files
+########################
+bin
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
